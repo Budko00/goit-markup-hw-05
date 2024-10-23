@@ -673,3 +673,6 @@ color: #ffffff;
     display: flex;
     flex-direction: column;
 }
+.icon-icon-send{
+    margin-left: 16px;
+}
