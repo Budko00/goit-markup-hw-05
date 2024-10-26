@@ -779,6 +779,21 @@ input:focus{
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 }
+:root {
+--focus-icon-color: #4D5AE5;
+}
+
+ /* Стиль для SVG-іконки */
+.icon-modal {
+    fill: currentColor;
+     /* Налаштування іконки на поточний колір (color) */
+}
+
+ /* Зміна кольору іконки при фокусі на input */
+.input-field[type="text"]:focus+svg.icon-modal {
+    color: var(--focus-icon-color);
+     /* Застосовуємо колір при фокусі */
+}
 .comment{
     margin-bottom: 16px
 }
