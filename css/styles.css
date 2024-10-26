@@ -623,12 +623,12 @@ height: 40px;
     gap: 16px;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
+.social-media-footer{
+    margin-right: 80px;
+}
 .form {
     display: flex;
-    flex-direction: column;
     gap:24px;
-    padding: 8px;
     border: 1px solid #212121;
     max-width: 300px;
 }
@@ -826,16 +826,12 @@ input:focus, svg:focus{
     fill: transparent;
 
 }
-:root {
-    --checked-background-color: #404bbf;
-    --checked-fill-color: #F4F4FD;
-}
-.checkbox-input:checked + user-privacy-span {
-    background-color: var(--checked-background-color);
+input:checked+label>span {
+    background-color: var(#404bbf);
     /* фон для span */
     border: none;
     /* вимикає бордер */
-    fill: var(--checked-fill-color);
+    fill: var(#F4F4FD);
     /* колір для іконки */
 }
 .privacy-policy-a{
@@ -855,5 +851,5 @@ input:focus, svg:focus{
 background-color: #4D5AE5;
 border: none;
 transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
+margin: 0 auto;
 }
