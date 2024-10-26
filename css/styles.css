@@ -826,12 +826,16 @@ input:focus, svg:focus{
     fill: transparent;
 
 }
+:root {
+    --background-color: #404bbf;
+    --icon-fill: #F4F4FD;
+}
 input:checked+label>span {
-    background-color: var(#404bbf);
+    background-color: var(--background-color);
     /* фон для span */
     border: none;
     /* вимикає бордер */
-    fill: var(#F4F4FD);
+    fill: var(--icon-fill);
     /* колір для іконки */
 }
 .privacy-policy-a{
