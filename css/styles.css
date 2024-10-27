@@ -430,8 +430,8 @@ transition:background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 .traling-icon:focus{
     background-color: #404bbf;
 }
-.ellipse{
-    fill: #f4f4fd;
+.ellipse {
+    fill: #FFFFFF;
 }
 /* контейнер третьої секції*/
 .team-info{
@@ -617,7 +617,9 @@ height: 40px;
     display: flex;
     align-items: baseline;
 }
-
+.icon-icon-send{
+    fill: #FFFFFF;
+}
 .social-media-list-footer {
     display: flex;
     gap: 16px;
